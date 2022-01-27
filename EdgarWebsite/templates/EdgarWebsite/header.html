@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+            {% block extra_css %}
+            {% endblock %}
+    </head>
+    <body>
+
+        <Center>
+        <button onclick="document.location = '/'">Home Page</button>
+        <button onclick="document.location = 'cover'">Cover Page</button>
+        <button onclick="document.location = 'resume'">Resume Page</button>
+        <button onclick="document.location = 'hobby'">Hobby Page</button>
+        <button onclick="document.location = 'contact'">Contact Page</button><hr>
+        </Center>
+
+        {% block content %}
+        {% endblock %}
+
+    </body>
+</html>

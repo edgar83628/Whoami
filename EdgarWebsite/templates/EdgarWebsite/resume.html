@@ -1,0 +1,20 @@
+{% load static %}
+
+{% include 'EdgarWebsite/header.html' %}
+
+{% block extra_css %}
+{% endblock %}
+
+{% block content %}
+
+<h2>Edgar Reyes</h2>
+<h3><i>Resume</h3><hr>
+<p>
+<a href="Edgar_Reyes_Resume.pdf">
+<img src="{% static 'EdgarWebsite/site_images/resume_link.png' %}" width="265" height="333">
+</a>
+</p>
+
+{% endblock %}
+
+{% include 'EdgarWebsite/footer.html' %}

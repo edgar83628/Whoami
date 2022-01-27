@@ -1,0 +1,30 @@
+{% include 'EdgarWebsite/header.html' %}
+{% load static %}
+
+{% block extra_css %}
+	<title>Home</title>
+{% endblock %}
+
+{% block content %}
+
+	<center>
+		<h1>Edgar Reyes</h1>
+		<h2>Laredo, TX 78043</h2>
+		<h3>(956)286-7965 - evreyes@liberty.edu</h3> <hr>
+	</center>
+
+	<h1>Career Objectives</h1>
+	<p>I seek a position with a company:</p>
+
+	<ul>
+		<li>which allows me to use my skillsets to the best of my ability
+		<li>provides competitive environment to enhance my skills as well as my co-workers
+		<li>promotes a safe and friendly environment to everyone around the work area</li></ul>
+		<hr>
+	<img src="{% static 'EdgarWebsite/site_images/pc_pic.jpg' %}" width="400" height="500"
+
+{% endblock %}
+
+{% include 'EdgarWebsite/footer.html' %}
+
+
